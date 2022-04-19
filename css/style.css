@@ -166,6 +166,7 @@ button span{
     font-size: 15px !important;
     font-family: TwitterChirp !important;
     margin: 4px 0 !important;
+    border: none !important;
 }
 
 .main-signup:hover{
@@ -275,6 +276,7 @@ footer p{
 
     .login h4{
         font-size: 1.5rem;
+        line-height: 1.5;
     }
 
     .login{
