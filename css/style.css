@@ -1,0 +1,303 @@
+@font-face {
+    font-family: TwitterChirpExtendedHeavy;
+    src: url(https://abs.twimg.com/fonts/v1/chirp-extended-heavy-web.woff2) format('woff2');
+    src: url(https://abs.twimg.com/fonts/v1/chirp-extended-heavy-web.woff) format('woff');
+    font-weight: 800;
+    font-style: 'normal';
+    font-display: 'swap';
+  }
+  @font-face {
+    font-family: TwitterChirp;
+    src: url(https://abs.twimg.com/fonts/v2/chirp-regular-web.woff2) format('woff2');
+    src: url(https://abs.twimg.com/fonts/v2/chirp-regular-web.woff) format('woff');
+    font-weight: 400;
+    font-style: 'normal';
+    font-display: 'swap';
+  }
+  @font-face {
+    font-family: TwitterChirp;
+    src: url(https://abs.twimg.com/fonts/v2/chirp-medium-web.woff2) format('woff2');
+    src: url(https://abs.twimg.com/fonts/v2/chirp-medium-web.woff) format('woff');
+    font-weight: 500;
+    font-style: 'normal';
+    font-display: 'swap';
+  }
+  @font-face {
+    font-family: TwitterChirp;
+    src: url(https://abs.twimg.com/fonts/v2/chirp-bold-web.woff2) format('woff2');
+    src: url(https://abs.twimg.com/fonts/v2/chirp-bold-web.woff) format('woff');
+    font-weight: 700;
+    font-style: 'normal';
+    font-display: 'swap';
+  }
+  @font-face {
+    font-family: TwitterChirp;
+    src: url(https://abs.twimg.com/fonts/v2/chirp-heavy-web.woff2) format('woff2');
+    src: url(https://abs.twimg.com/fonts/v2/chirp-heavy-web.woff) format('woff');
+    font-weight: 800;
+    font-style: 'normal';
+    font-display: 'swap';
+}
+
+:root {
+    --twitter-blue: #1d9bf0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: TwitterChirp;
+    line-height: 1.5;
+    height: 100%;
+}
+
+h1{
+    font-weight: 800;
+}
+
+section{
+    height: auto;
+}
+
+.container{
+    height: auto;
+}
+
+.container .row{
+    display: flex;
+    height: auto;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../Image/lohp_en_1302x955.png) center/cover no-repeat;
+    width: 58%;
+    flex: 1;
+}
+
+.login{
+    
+    flex: none;
+    padding: 38px 34px;
+}
+
+.login .sign-up-options{
+    margin:  30px 0;
+}
+
+.login .sign-up-options button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 24px ;
+    width: 100%;
+    background: none;
+    border: 1px solid #ccc;
+    margin: 15px 0 8px;
+    border-radius: 50px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    color: #333;
+    max-width: 320px;
+    
+
+}
+
+.login .sign-up-options button:hover{
+    background: hsla(204, 89%, 56%, 0.089);
+    transition: all .3s ease-in-out
+}
+
+
+
+.login .tweet{
+    width: 50px;
+}
+
+.login h1{
+    font-size: 4.2rem;
+    margin: 25px 0;
+}
+
+.login h4{
+    font-size: 2.2rem;
+}
+
+button span{
+    margin-right: 10px;
+}
+
+button span img{
+    width: 20px;
+}
+
+button span{
+    width: 25px;
+}
+
+.or-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 320px;
+}
+
+.or{
+    margin:  0 10px;
+}
+
+.or-section .line{
+    width: 50%;
+    background: #ccc;
+    height: .5px;
+}
+
+.main-signup{
+    background: var(--twitter-blue) !important;
+    color: #fff !important;
+    padding: 15px !important;
+    font-size: 15px !important;
+    font-family: TwitterChirp !important;
+    margin: 4px 0 !important;
+}
+
+.main-signup:hover{
+    background: #0973ba !important;
+}
+
+.login p{
+    max-width: 320px;
+}
+
+.login p small{
+    font-size: 11px;
+}
+
+
+.login h3{
+    margin: 50px 0 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.login .sign-in-btn{
+    padding: 15px !important;
+}
+
+
+footer{
+    line-height: 1.7;
+    padding: 20px;
+    font-size: small;
+    font-family: TwitterChirp;
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer ul li{
+    padding: 0 8px;
+    list-style-type: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #666;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 968px){
+    .container .row{
+        flex-direction: column-reverse;
+    }
+
+    .login{
+        margin: 0 auto !important;
+        max-width: 520px;
+    }
+
+
+    .login h4{
+        font-size: 1.5rem;
+    }
+
+    .login{
+        width: 100%;
+    }
+
+    .logo{
+        width: 100%;
+    }
+
+    .logo img{
+        width: 200px;
+    }
+
+    footer{
+        padding: 20px 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .login h1{
+        font-size: 2.8rem;
+        margin: 25px 0;
+    }
+}
