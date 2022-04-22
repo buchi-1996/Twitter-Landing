@@ -76,7 +76,8 @@ h1{
 
 .login{
     flex: none;
-    width: 40rem;
+    width: 43%;
+    min-width: max-content;
     padding: 38px 34px;
 }
 
