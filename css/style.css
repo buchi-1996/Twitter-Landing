@@ -63,7 +63,7 @@ h1{
 .container .row{
     display: flex;
     height: auto;
-    height: calc(100vh - 60px);
+    min-height: calc(100vh - 60px);
 }
 
 .logo{
@@ -77,6 +77,9 @@ h1{
 
 .login{
     flex: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 43%;
     min-width: max-content;
     margin: 0 auto;
