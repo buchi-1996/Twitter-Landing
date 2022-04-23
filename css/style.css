@@ -63,6 +63,7 @@ h1{
 .container .row{
     display: flex;
     height: auto;
+    height: calc(100vh - 60px);
 }
 
 .logo{
@@ -199,6 +200,7 @@ button span{
 footer{
     line-height: 1.7;
     padding: 20px;
+    height: 60PX;
     font-size: small;
     font-family: TwitterChirp;
 }
