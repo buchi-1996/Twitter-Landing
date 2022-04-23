@@ -274,7 +274,7 @@ footer p{
     .login{
         margin: 0 auto !important;
         max-width: 520px;
-        min-width: none;
+        min-width: min-content;
     }
 
     .login h1{
@@ -308,7 +308,6 @@ footer p{
 @media screen and (max-width: 768px){
     .login{
         padding: 36px 28px;
-        min-width: none;
     }
     .login h1{
         font-size: 2.8rem;
